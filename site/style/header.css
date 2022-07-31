@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    border: solid 1px #fff;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#d_header{
+    width:inherit;
+}
+
+#maison_img{
+    width: 200px;
+    height: 80px;
+}
+
+#d_header table{
+    float :right;
+    margin: 10px 10px 0 0;
+}
+
+#d_header table tr select{
+    cursor: pointer;
+}
+
+.td_space{
+    width: 130px;
+}
+
+#d_header a{
+    text-decoration: none;
+    color:#000;
+}
+
+#d_header p{
+    margin-left: 10px
+}
+
+#accueil_img{
+    margin: 5px 0 0 10px;
+}
+

@@ -1,0 +1,143 @@
+#d_content{
+    width:850px;
+    height: 550px;
+    margin: 60px auto;
+    border: inherit;
+}
+
+#d_coordonnee{
+    width:inherit;
+    height: 550px;
+    border: inherit;
+}
+
+#d_top_coordonnee{
+    width:inherit;
+    height: 40px;
+    border: inherit; 
+}
+
+#d_center_coordonnee{
+    width:inherit;
+    height: 250px;
+    border: inherit;
+}
+
+#d_center_left_coordonnee{
+    width:400px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: left
+}
+
+.champsobligatoire{
+    padding: 10px;
+}
+
+.champsobligatoire p span{
+    color:#fb565a;
+}
+
+#d_center_left_coordonnee table{
+    margin-left: 10px;
+    height: 150px;
+}
+
+#d_center_left_coordonnee table tr td label{
+    float:right;
+}
+
+#d_center_left_coordonnee table tr td label span{
+    color:#fb565a;
+}
+
+#d_center_left_coordonnee table tr td input{
+    margin-left: 10px
+}
+
+#d_center_left_coordonnee table tr td select{
+    margin-left: 10px
+}
+
+
+#d_center_right_coordonnee{
+    width:400px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: right
+}
+
+#d_center_right_coordonnee table{
+    margin-left: 10px;
+    height: 60px;
+}
+
+#d_center_right_coordonnee table tr td label{
+    float:right;
+}
+
+#d_center_right_coordonnee table tr td label span{
+    color:#fb565a;
+}
+
+#d_center_right_coordonnee table tr td input{
+    margin-left: 10px;
+    width: 200px;
+}
+
+#d_bottom_coordonnee{
+    width:inherit;
+    height: 250px;
+    border: inherit;
+    margin-top: 10px;
+}
+
+#d_bottom_left_coordonnee{
+    width:400px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: left
+}
+
+#d_bottom_left_coordonnee table{
+    margin-left: 10px;
+    height: 100px;
+}
+
+#d_bottom_left_coordonnee table tr td label{
+    width: 200px;
+    float: right;
+}
+
+#d_bottom_left_coordonnee table tr td label span{
+    color:#fb565a;
+}
+
+#d_bottom_left_coordonnee table tr td input{
+    margin-left: 10px;
+    width: 150px;
+}
+
+#d_bottom_left_coordonnee table tr td textarea{
+    margin-left: 10px;
+    width: 150px;
+}
+
+#d_bottom_right_coordonnee{
+    width:350px;
+    height: 250px;
+    float: right;
+    border-radius: 5px;
+}
+
+#d_bottom_right_coordonnee div{
+    border: inherit;
+    float: right;
+    padding: 10px;
+    background-color: #FFF2E9;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+

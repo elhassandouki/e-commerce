@@ -1,0 +1,220 @@
+#d_content{
+    width: 900px;
+    height: 600px;
+    margin: 60px auto;
+    border: 1px solid #fff;
+}
+
+#d_content_top{
+    width: inherit;
+    height: 45px;
+    border: inherit;
+}
+
+#d_content_top div{
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px 5px 2px 5px;
+    cursor: pointer;
+}
+
+#d_content_top div img{
+    width: 16px;
+    height: 16px;
+}
+
+#d_content_center{
+    width: inherit;
+    border: inherit;
+}
+
+#d_content_center table{
+    width: inherit;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+#d_content_center table tr th{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#d_content_center table tr td{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#d_content_center table tr td img{
+    width: 64px;
+    height: 64px;
+}
+
+#d_content_center table tr td input{
+    width: 100px;
+}
+
+#d_content_center table tr td div{
+    text-align: center;
+    padding-top: 5px;
+}
+
+#d_content_center table tr td div img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+#d_content_bottom{
+    width: inherit;
+    border: inherit;
+    margin-top: 10px;
+}
+
+#d_content_bottom p{
+   width: 490px;
+   margin-left: 10px;
+   padding: 5px;
+   border: 1px solid #ccc; 
+}
+
+#d_ajouter{
+    width: 1250px;
+    height: 800px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 888;
+    background-color: #000;
+    display: none;
+}
+
+#d_ajouter_content{
+    width: 400px;
+    height: 220px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#d_ajouter_content_top{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+}
+
+#d_ajouter_content_top h1{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#d_ajouter_content_center{
+   width: inherit;
+   height: 120px;
+}
+
+#d_ajouter_content_center p{
+   text-align: center;
+   border-bottom: 1px #ccc solid;
+   border-top: 1px #ccc solid;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+#d_ajouter_content_center table{
+   //width:300px;
+   margin: 0 auto;
+}
+
+#d_ajouter_content_center table tr td{
+   padding: 5px;
+}
+
+#d_ajouter_content_center table tr td label{
+   float: right;
+}
+
+#d_ajouter_content_center table tr td input{
+   width: 150px;
+}
+
+#d_ajouter_content_center table tr td select{
+   width: 150px;
+}
+
+#d_ajouter_content_bottom{
+    width: inherit;
+    height: 100px;
+}
+#d_ajouter_content_left{
+    padding: 5px;
+    float: right;
+    background-color: #fb565a;
+    border-radius:5px;
+    cursor: pointer;
+    margin-right: 110px;
+    color: #fff;
+}
+
+#d_ajouter_content_right{
+    padding: 5px;
+    float: right;
+    background-color: #fb565a;
+    border-radius:5px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.c_confirmersupprission{
+    width: 1250px;
+    height: 800px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 888;
+    background-color: #000;
+    display: none;
+}
+
+.c_confirmersupprission_content{
+    width: 400px;
+    height: 100px;
+    margin: 200px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.c_confirmersupprission_content_message{
+    padding: 10px;
+}
+
+.c_confirmersupprission_content_oui{
+    padding: 10px;
+    float: right;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-right: 130px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.c_confirmersupprission_content_annuler{
+    padding: 10px;
+    float: right;
+    background-color: #fb565a;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+

@@ -1,0 +1,237 @@
+
+#d_content{
+    width:inherit;
+    height: 700px;
+    border: inherit;
+}
+
+#d_left{
+    width: 700px;
+    height: 400px;
+    border: inherit;
+    float:left;
+    margin: 10px;
+}
+
+#d_leftt_top{
+    width:inherit;
+    height: 50px;
+    text-align: center;
+    border: inherit;
+    padding: 10px 0 10px 0;
+}
+
+#d_leftt_top span{
+    display: block;
+    width: 120px;
+    float: left;
+    padding: 8px 0 7px 0;
+    background: #e8e8e8;
+}
+
+#d_leftt_top img{
+    float: left;
+}
+
+#d_left_bottom{
+    width:inherit;
+    height:250px;
+    border: inherit;
+    margin:10px 0 10px 0;
+}
+
+
+
+#d_right{
+    width: 255px;
+    height: 600px;
+    border: inherit;
+    float:right;
+    margin: 10px;
+}
+
+#d_right_top{
+    width:inherit;
+    height: 60px;
+    padding: 10px 0 10px 0;
+    border: inherit;
+}
+
+#d_right_top div{
+    width:220px;
+    margin: 0 auto;
+}
+
+#d_right_top div img{
+    margin-right: 5px;
+}
+
+#d_right_top div span{
+    font-size: 26px;
+    color: #fb565a;
+}
+
+#d_right_top div p{
+    text-align: center;
+}
+
+#d_right_bottom{
+    width:inherit;
+    height: 450px;
+    padding: 10px 0 10px 0;
+    border: inherit;
+}
+
+#d_right_bottom h3{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#d_right_bottom img{
+    display: block;
+    width: 220px;
+    margin: 10px auto;
+}
+
+
+#d_top_adresselivraison{
+    width: 345px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: left;
+}
+
+#d_top_adresselivraison_top{
+    padding: 10px;
+    //border:inherit;
+}
+
+#d_top_adresselivraison_center{
+    padding: 10px;
+    height: 130px;
+    //border:inherit;
+}
+
+#d_top_adresselivraison_center table{
+    height: 100px;
+}
+
+#d_top_adresselivraison_bottom{
+    height: 50px;
+    //border:inherit;
+}
+
+#d_top_adresselivraison_bottom div{
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    background-color:#FFF2E9; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#d_bottom_adressefacturation{
+    width: 345px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: right;
+}
+
+
+#d_bottom_adressefacturation_top{
+    padding: 10px;
+    //border:inherit;
+}
+
+#d_bottom_adressefacturation_center{
+    padding: 10px;
+    height: 130px;
+    //border:inherit;
+}
+
+#d_bottom_adressefacturation_center table{
+    height: 100px;
+}
+
+#d_bottom_adressefacturation_bottom{
+    height: 50px;
+    //border:inherit;
+}
+
+#d_bottom_adressefacturation_bottom div{
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    background-color:#FFF2E9; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.etapesuivante{
+    padding: 10px;
+    float: right;
+    background-color: #fb565a;
+    color:#FFF;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.etapesuivante span{
+    margin-right: 10px;
+}
+
+#modifierAdresse{
+    width:370px; 
+    height:180px;
+    border: inherit;
+    position: absolute;
+    left: 300px;
+    top:250px;
+    display: none;
+    background-color: #fff;
+    border:1px solid #ccc;
+    padding: 10px;
+}
+
+#modifierAdresse h4{
+    margin-bottom: 10px;
+}
+
+#modifierAdresse table{
+    height: 110px;
+}
+
+#modifierAdresse table tr td label{
+    float: right;
+}
+
+#modifierAdresse table tr td label span{
+    color:#fb565a;
+}
+
+#modifierAdresse table tr td select{
+    margin-left: 10px; 
+}
+
+#modifierAdresse table tr td input{
+    width:200px;
+    margin-left: 10px; 
+}
+
+#modifierAdresse div{
+    padding: 10px;
+    float: right;
+    background-color:#FFF2E9; 
+    margin: 10px 20px 0 0;
+    border-radius: 5px;
+}
+
+#modifierAdresse p{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    background-color: #fb565a;
+    color: #fff;
+    padding: 0 5px;
+}

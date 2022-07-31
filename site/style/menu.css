@@ -1,0 +1,134 @@
+#d_menu{
+    width:inherit;
+    height: 50px;
+    border: inherit;
+    margin-top:10px;
+}
+
+#primary_nav_wrap
+{
+    width: inherit;
+    height: 32px;
+    background-color: #fb565a;
+    border: inherit;
+    -webkit-animation: mybcolors 15s infinite;
+    animation: mybcolors 15s infinite;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0px;
+        background-color: #fb565a;
+        -webkit-animation: mybcolors 15s infinite;
+        animation: mybcolors 15s infinite;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background-color: #fff;
+        //border-left: solid 5px #fb565a;
+        display:block;
+	color:#fb565a;
+	font-weight:700;
+	font-size:14px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+        -webkit-animation: mycolors 15s infinite;
+        animation: mycolors 15s infinite;
+}
+
+#primary_nav_wrap ul li:hover
+{
+        border-left: solid 3px #fff;
+        left:5px;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block;
+        background-color: #fb565a;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mybcolors {
+    0%   {background-color: #fb565a;}
+    25%  {background-color: cadetblue;}
+    50%  {background-color: coral;}
+    75%  {background-color: skyblue;}
+    100% {background-color: #ccc;}
+}
+
+/* Standard syntax */
+@keyframes mybcolors {
+    0%   {background-color: #fb565a;}
+    25%  {background-color: cadetblue;}
+    50%  {background-color: coral;}
+    75%  {background-color: skyblue;}
+    100% {background-color: #ccc;}
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mycolors {
+    0%   {color: #fb565a;}
+    25%  {color: cadetblue;}
+    50%  {color: coral;}
+    75%  {color: skyblue;}
+    100% {color: #ccc;}
+}
+
+/* Standard syntax */
+@keyframes mycolors {
+    0%   {color: #fb565a;}
+    25%  {color: cadetblue;}
+    50%  {color: coral;}
+    75%  {color: skyblue;}
+    100% {color: #ccc;}
+}

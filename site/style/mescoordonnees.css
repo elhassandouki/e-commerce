@@ -1,0 +1,249 @@
+#d_content{
+    width:inherit;
+    height: 630px;
+    border: inherit;
+}
+
+#d_top{
+    width:inherit;
+    height: 60px;
+    border: inherit;
+}
+
+#d_top_left{
+    padding: 10px 0 10px 0;
+    border-bottom: solid 1px #ccc;
+    float: left;
+    margin: 20px 0 0 40px;
+}
+
+#d_top_right{
+    padding: 10px; 
+    float:right;
+    margin: 20px 600px 0 0;
+}
+
+#d_bottom{
+    width:inherit;
+    height: 550px;
+    border: inherit;
+}
+
+#d_left{
+    width:200px;
+    height: 550px;
+    border: inherit;
+    float: left;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+#d_left_top{
+    width:inherit;
+    border-bottom: 1px solid #ccc;
+    padding:5px 0 5px 0;
+}
+
+#d_left_top div{
+    padding: 10px;
+    //border: inherit;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+#d_left_top div:hover{
+    background-color: #FFF2E9;
+}
+
+#d_left_center_top{
+    width:inherit;
+    border-bottom: 1px solid #ccc;
+    padding:5px 0 5px 0;
+}
+
+#d_left_center_top div{
+    padding: 10px;
+    //border-bottom: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+#d_left_center_top div:hover{
+    background-color: #FFF2E9;
+}
+
+#d_left_center_bottom{
+    width:inherit;
+    border-bottom: 1px solid #ccc;
+    padding:5px 0 5px 0;
+}
+
+#d_left_center_bottom div{
+    padding: 10px;
+    //border: inherit;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+#d_left_center_bottom div:hover{
+    background-color: #FFF2E9;
+}
+
+#d_left_bottom{
+    width:inherit;
+    border-bottom: 1px solid #ccc;
+    padding:5px 0 5px 0;
+}
+
+#d_left_bottom div{
+    padding: 10px;
+    //border: inherit;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+#d_left_bottom div:hover{
+    background-color: #FFF2E9;
+}
+
+#d_right{
+    width:720px;
+    height: 550px;
+    border: inherit;
+    float: right;
+    //padding: 10px;
+}
+
+#d_coordonnee{
+    width:inherit;
+    height: 550px;
+    border: inherit;
+}
+
+#d_top_coordonnee{
+    width:inherit;
+    height: 40px;
+    border: inherit; 
+}
+
+#d_center_coordonnee{
+    width:inherit;
+    height: 250px;
+    border: inherit;
+}
+
+#d_center_left_coordonnee{
+    width:350px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: left
+}
+
+.champsobligatoire{
+    padding: 10px;
+}
+
+.champsobligatoire p span{
+    color:#fb565a;
+}
+
+#d_center_left_coordonnee table{
+    margin-left: 10px;
+    height: 150px;
+}
+
+#d_center_left_coordonnee table tr td label{
+    float:right;
+}
+
+#d_center_left_coordonnee table tr td label span{
+    color:#fb565a;
+}
+
+#d_center_left_coordonnee table tr td input{
+    margin-left: 10px
+}
+
+#d_center_left_coordonnee table tr td select{
+    margin-left: 10px
+}
+
+
+#d_center_right_coordonnee{
+    width:350px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: right
+}
+
+#d_center_right_coordonnee table{
+    margin-left: 10px;
+    height: 60px;
+}
+
+#d_center_right_coordonnee table tr td label{
+    float:right;
+}
+
+#d_center_right_coordonnee table tr td label span{
+    color:#fb565a;
+}
+
+#d_center_right_coordonnee table tr td input{
+    margin-left: 10px;
+    width: 200px;
+}
+
+#d_bottom_coordonnee{
+    width:inherit;
+    height: 250px;
+    border: inherit;
+    margin-top: 10px;
+}
+
+#d_bottom_left_coordonnee{
+    width:350px;
+    height: 250px;
+    border: solid 1px #ccc;
+    float: left
+}
+
+#d_bottom_left_coordonnee table{
+    margin-left: 10px;
+    height: 100px;
+}
+
+#d_bottom_left_coordonnee table tr td label{
+    width: 150px;
+    float: right;
+}
+
+#d_bottom_left_coordonnee table tr td label span{
+    color:#fb565a;
+}
+
+#d_bottom_left_coordonnee table tr td input{
+    margin-left: 10px;
+    width: 150px;
+}
+
+#d_bottom_right_coordonnee{
+    width:350px;
+    height: 250px;
+    //border: inherit;
+    float: right;
+    border-radius: 5px;
+}
+
+#d_bottom_right_coordonnee div{
+    border: inherit;
+    float: right;
+    padding: 10px;
+    background-color: #FFF2E9;
+    cursor: pointer;
+}
+
